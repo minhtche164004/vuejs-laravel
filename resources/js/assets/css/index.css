@@ -1,0 +1,577 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: segoe ui, Frutiger, frutiger linotype, dejavu sans, helvetica neue, Arial, sans-serif !important;
+}
+
+.site-branding {
+    margin: 2em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 12em;
+}
+
+.search form {
+    display: flex;
+}
+
+.search form input {
+    padding: 1em;
+    padding-right: 12em;
+}
+
+.search form button {
+    padding: 1em 1em;
+    border: none;
+    color: white;
+    background-color: #ef233c;
+    cursor: pointer;
+}
+
+.search form button:hover {
+    background-color: #d92037;
+}
+
+
+
+.phone {
+    padding-right: 2%;
+}
+
+.phone label {
+    font-size: 2em;
+}
+
+.phone a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 2em;
+    color: #dd3333;
+}
+
+.list:before {
+    content: "\f0c9";
+    font-family: fontawesome;
+    font-weight: 100;
+}
+
+nav {
+    padding: 0 0 0 4em;
+    /* padding-left: 1em; */
+    color: white;
+    margin: 2em;
+    display: flex;
+    height: fit-content;
+    width: fit-content;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.list {
+    padding: 1em;
+    background-color: #d92037;
+    cursor: pointer;
+}
+
+body {
+    margin: 0;
+}
+
+.listitem {
+    display: block;
+}
+
+.dropdown-list {
+    position: relative;
+}
+
+.main-menu li:hover {
+    background-color: #ef233c;
+    cursor: pointer;
+}
+
+.main-menu li:hover a {
+    color: white;
+}
+
+.main-menu li {
+    list-style-type: none;
+    border: 1px solid rgba(128, 128, 128, 0.532);
+    padding: 1em 5em 1em 1em;
+    position: relative;
+    text-transform: uppercase;
+    border-bottom: none;
+}
+
+.main-menu li:last-child {
+    border-bottom: 1px solid rgba(128, 128, 128, 0.532);
+}
+
+.main-menu li a {
+    text-decoration: none;
+    color: black;
+}
+
+.cart {
+    margin-right: 5px;
+}
+
+.shopping-cart {
+    box-sizing: unset;
+    padding: 0 1em;
+    margin-left: 15em;
+    height: 2em;
+    width: 2em;
+    background-color: #d92037;
+    text-align: center;
+    border-radius: 35%;
+    color: white !important;
+}
+
+.shopping-cart:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.navbars {
+    white-space: nowrap;
+    background-color: #ef233c;
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+}
+
+.menu {
+    display: flex;
+}
+
+.item {
+    padding: 1em;
+}
+
+.item:hover {
+    cursor: pointer;
+    color: yellow;
+}
+
+.item:first-child {
+    color: yellow;
+}
+
+.device {
+    margin-top: 2em;
+    background: url(https://www.sieuthimaytinhlangson.com/frontend/img/bg_heading.png) no-repeat;
+    border-bottom: 3px solid #ef233c;
+    font-size: 1em;
+    height: inherit;
+    width: 100%;
+    text-align: left;
+}
+
+.device label {
+    padding: 9px 5px 1px 10px;
+    border-top-left-radius: 8px;
+    /* display: inline-block; */
+    position: relative;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold !important;
+}
+
+.list-device {
+    margin: 0;
+    padding: 0;
+    padding-top: 1em;
+}
+
+.items {
+    border: 1px solid rgba(128, 128, 128, 0.532);
+}
+
+
+.list-device div img {
+    padding: 10px 0px;
+    /* display: block; */
+    margin-left: auto;
+    margin-right: auto;
+    transition: transform .5s;
+    height: 14em;
+    width: 100%;
+}
+
+.list-device div img:hover {
+    transform: scale(1.1);
+}
+
+.price {
+    margin-top: 1em;
+    width: 100%;
+    color: #ef233c;
+    text-align: right;
+}
+
+.status {
+    margin: 1em 0;
+    color: #ef233c;
+    font-weight: 700;
+    text-align: right;
+}
+
+.font-weight-bold {
+    color: black;
+}
+
+.name:hover {
+    text-decoration: none;
+}
+
+.tag {
+    margin-top: 2em;
+    padding-left: 10%;
+    width: 100%;
+}
+
+.itemss {
+    width: 25em;
+}
+
+.i {
+    font-size: 1em;
+}
+
+.banner {
+    align-items: center;
+    display: flex;
+    position: relative;
+    margin-top: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    height: 7em;
+    width: 80%;
+    background-color: black;
+}
+
+.banner-img {
+    padding: 10px;
+}
+
+.banner-img:first-child {
+    padding-left: 30px;
+}
+
+.more-info {
+    border-bottom: 10px solid #ef233c;
+    align-items: center;
+    /* margin: 50px 0 0 0; */
+    padding: 20px 0;
+    margin-top: 50px;
+    background-color: rgba(128, 128, 128, 0.532);
+    height: 100%;
+    width: 100%;
+}
+
+.text {
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.policy {
+    display: block;
+}
+
+.fa-caret-right {
+    padding-top: 1em;
+}
+
+.about-us div {
+    padding-bottom: 11px;
+}
+
+footer {
+    height: fit-content;
+    background-color: rgba(0, 0, 0, 0.893);
+}
+
+.button {
+    border-bottom: 1px solid grey;
+    text-align: center;
+}
+
+.button div label {
+    padding-right: 1em;
+}
+
+.license img {
+    width: 198px;
+    height: 180px;
+    filter: grayscale(100%) brightness(150%);
+}
+
+.license div {
+    padding: 5px 0px;
+}
+
+.license div:first-child {
+    padding-bottom: none;
+}
+
+.license {
+    text-align: center;
+}
+
+.footer {
+    width: 100%;
+    padding: 1em 0px 1em 0px;
+}
+
+.footer-right {
+    text-align: left;
+}
+
+.footer-right div {
+    padding-bottom: 5px;
+}
+
+.footer-right img {
+    margin-top: 15px;
+    width: 15em;
+    height: 80px;
+}
+
+.map {
+    padding-right: 15px;
+}
+
+.main {
+    padding-left: 100px;
+    width: 80%;
+}
+
+@media only screen and (max-width: 1084px) {
+    .navbars {
+        display: none;
+    }
+
+    .search {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 1084px) {
+    .navbar-toggler {
+        display: none;
+    }
+
+    .navs {
+        display: none;
+    }
+
+    .collapse-navbar {
+        display: none;
+    }
+
+    .navbar-collapse {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 576px) {}
+
+.navbar-toggler {
+    border: 1px solid black;
+    margin-left: 2em;
+}
+
+collapse-navbar {
+    height: fit-content;
+    background-color: grey;
+}
+
+.responsive {
+    margin-bottom: 2em;
+}
+
+.dif {
+    overflow: hidden;
+    width: 100%;
+}
+
+@media (max-width: 1084px) {
+    .navbar-collapse {
+        position: fixed;
+        top: 0;
+        left: 0;
+        /* padding-left: 15px;
+        padding-right: 15px; */
+        padding-bottom: 15px;
+        width: 100%;
+        background: black;
+        max-width: 55%;
+        height: 100%;
+        overflow-y: auto;
+        z-index: 9999;
+    }
+
+    .navbar-collapse ul li {
+        padding-left: 15px;
+        padding-right: 15px;
+
+    }
+
+    .navbar-collapse ul li a {
+        color: white;
+    }
+
+    .navbar-collapse button {
+        width: 100%;
+        background-color: #ef233c;
+        white-space: nowrap;
+        border: none;
+        padding: 0;
+        margin: 0;
+        text-align: center;
+        color: white;
+        padding: 10px;
+        font-size: 16px;
+        border-radius: none;
+    }
+
+
+    .navbar-collapse.collapsing {
+        height: 100%;
+        transition: 0.3s;
+        left: -100%;
+    }
+
+    .navbar-collapse.show {
+        left: 0;
+        transition: 0.3s;
+    }
+
+    .navs {
+        justify-content: space-evenly;
+        height: 4em;
+        margin: 0;
+        width: 100%;
+        background-color: #ef233c;
+        margin-bottom: 3em;
+        padding: 0;
+        position: sticky;
+        top: 0;
+        z-index: 9999;
+    }
+
+    .nav-item {
+        text-align: left;
+    }
+
+    .navs .navbar-toggler {
+        border: none;
+        color: white;
+        margin: 0;
+    }
+
+    .searchs form {
+        display: flex;
+    }
+
+    .searchs form input {
+        padding: 10px;
+        border: none;
+    }
+
+    .searchs form button {
+        padding: 10px 13px;
+        background-color: #dd3333;
+        color: white;
+        border-color: white;
+    }
+
+    .shopping-carts {
+        box-sizing: unset;
+        padding: 0 1em;
+        background-color: #d92037;
+        text-align: center;
+        border-radius: 35%;
+        color: white;
+    }
+
+    .shopping-carts:hover {
+        color: white;
+        text-decoration: none;
+    }
+
+    .site-branding {
+        display: block;
+    }
+
+    .logo {
+        text-align: center;
+    }
+
+    .phone {
+        margin-top: 1rem;
+        text-align: center;
+        font-size: x-small;
+    }
+
+    .main {
+        padding: 0;
+        margin: 0;
+    }
+
+    .dif {
+        width: 100%;
+    }
+
+    .listitem {
+        display: none;
+    }
+
+    .banner {
+        width: 100%;
+        height: 100%;
+    }
+
+    .banner-img img {
+        width: 100%;
+    }
+
+    .itemss {
+        margin-bottom: 5%;
+    }
+
+    .button {
+        display: none;
+    }
+
+    .footer-right {
+        margin-top: 1rem;
+    }
+}
+
+.site-layout-background {
+    background: #fff;
+    padding: 20px 20px;
+}
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+    /* Màu làm mờ với độ trong suốt 50% */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+    /* Đảm bảo nó hiển thị trên tất cả các phần tử khác */
+}
